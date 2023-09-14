@@ -1,0 +1,89 @@
+chocolate{
+    display: block;
+    padding: 1px;
+    background-color: #a26b49a6;
+  }
+  vanilla{
+    display: block;
+    padding: 1px;
+    background-color: #faf3e0;
+  }
+  strawberry{
+    display: block;
+    padding: 1px;
+    background-color: #efcccb;
+  }
+  emphasis{
+    display: block;
+    background-color: #e4e4e4;
+  }
+  h1{
+    display: block;
+    text-align: center;
+    background-color: #cfcfcf;
+  }
+header {
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+header img {
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+  }
+  nav {
+    height: 50px;
+    flex: 100%;
+    display: flex;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  main {
+    display: flex;
+  }
+  next{
+    display: flex;
+  }
+  article, section {
+    flex: 4;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+  }
+  
+  aside a {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  
+  footer {
+    margin-top: 10px;
+  }
+
+aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+  }
+aside img {
+    max-width: 100%;
+  }
+center-it{
+    text-align: center;
+}
