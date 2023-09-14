@@ -1,19 +1,19 @@
-chocolate{
+.chocolate{
     display: block;
     padding: 1px;
     background-color: #a26b49a6;
   }
-  vanilla{
+  .vanilla{
     display: block;
     padding: 1px;
     background-color: #faf3e0;
   }
-  strawberry{
+  .strawberry{
     display: block;
     padding: 1px;
     background-color: #efcccb;
   }
-  emphasis{
+  .emphasis{
     display: block;
     background-color: #e4e4e4;
   }
