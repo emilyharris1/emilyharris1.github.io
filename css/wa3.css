@@ -1,3 +1,6 @@
+.center-it{
+  text-align: center;
+}
 .chocolate{
     display: block;
     padding: 1px;
@@ -84,6 +87,3 @@ aside {
 aside img {
     max-width: 100%;
   }
-center-it{
-    text-align: center;
-}
