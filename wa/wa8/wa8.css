@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(160, 181, 243);
+    font-family: Georgia, serif;
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:20px;
+    background-color: rgb(61, 43, 226);
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+    color:aliceblue;
+}
+
+#rose{
+    width:30vw;
+    height: 60vh;
+    margin-top: 0px;
+    margin-left: 0px;
+    transition: transform 2s, margin-top 2s, margin-left 2s;
+}
+
+#rose:hover{
+    transform-origin: center;
+    transform: rotate(180deg);
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#ball{
+    background-color: rgb(109, 58, 212);
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: relative;
+    left:0vw;
+    top:0vw;
+
+    animation-duration: 3s;
+    animation-name: rollingball;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+}
+
+@keyframes rollingball{
+    from {left: -25vw;}
+    to {left: 25vw;}
+}
+
+h1{
+    color: rgb(43, 43, 45);
+}

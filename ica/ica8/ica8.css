@@ -20,7 +20,7 @@ body{
     animation-name: box2move;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
-    animation-timing-function: cubic-bezier(0.54, 0.63, 0.83, 0.67) ;
+    animation-timing-function: cubic-bezier(0.54, 0.63, 0.83, 0.67);
 }
 
 @keyframes box2move{
