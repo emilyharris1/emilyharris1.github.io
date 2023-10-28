@@ -14,7 +14,7 @@
         height: 110px;
         margin-left: -3vw;
         margin-top: -10px;
-        background-color:rgba(208, 176, 134, 0.435);
+        background-color:rgba(210, 174, 127, 0.435);
     }
     .small{
         opacity: 0;
@@ -71,16 +71,16 @@
         text-align: center;
     }
     .concert1:hover{
-        background-color:rgba(175, 138, 89, 0.557);
+        background-color:rgba(210, 174, 127, 0.733);
     }
     .concert2:hover{
-        background-color:rgba(230, 200, 161, 0.722);
+        background-color:rgba(231, 192, 142, 0.613);
     }
     .concert3:hover{
-        background-color:rgba(230, 200, 161, 0.722);
+        background-color:rgba(231, 192, 142, 0.613);
     }
     .concert4:hover{
-        background-color:rgba(175, 138, 89, 0.557);
+        background-color:rgba(210, 174, 127, 0.733);
     }
 
 }
@@ -101,7 +101,7 @@
         height: 110px;
         margin-left: -3vw;
         margin-top: -10px;
-        background-color:rgba(208, 176, 134, 0.435);
+        background-color:rgba(210, 174, 127, 0.435);
     }
     .small{
         opacity: 0;
@@ -151,16 +151,16 @@
         text-align: center;
     }
     .concert1:hover{
-        background-color:rgba(175, 138, 89, 0.557);
+        background-color:rgba(210, 174, 127, 0.733);
     }
     .concert2:hover{
-        background-color:rgba(230, 200, 161, 0.722);
+        background-color:rgba(231, 192, 142, 0.613);
     }
     .concert3:hover{
-        background-color:rgba(175, 138, 89, 0.557);
+        background-color:rgba(210, 174, 127, 0.733);
     }
     .concert4:hover{
-        background-color:rgba(230, 200, 161, 0.722);
+        background-color:rgba(231, 192, 142, 0.613);
     }
 }
 @media screen and (min-width: 1400px){
@@ -179,7 +179,7 @@
         height: 110px;
         margin-left: -3vw;
         margin-top: -10px;
-        background-color:rgba(208, 176, 134, 0.435);
+        background-color:rgba(210, 174, 127, 0.435);
     }
     .small{
         opacity: 0;
@@ -236,15 +236,15 @@
         text-align: center;
     }
     .concert1:hover{
-        background-color:rgba(175, 138, 89, 0.557);
+        background-color:rgba(210, 174, 127, 0.733);
     }
     .concert2:hover{
-        background-color:rgba(230, 200, 161, 0.722);
+        background-color:rgba(231, 192, 142, 0.613);
     }
     .concert3:hover{
-        background-color:rgba(230, 200, 161, 0.722);
+        background-color:rgba(231, 192, 142, 0.613);
     }
     .concert4:hover{
-        background-color:rgba(175, 138, 89, 0.557);
+        background-color:rgba(210, 174, 127, 0.733);
     }
 }
