@@ -1,0 +1,250 @@
+@media screen and (min-width: 500px) and (max-width: 1400px){
+    *{
+        margin: 0.3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+    body{
+        background-color: rgba(210, 174, 127, 0.252);
+    }
+    h1{
+        text-align: center;
+        width: 100vw;
+        height: 110px;
+        margin-left: -3vw;
+        margin-top: -10px;
+        background-color:rgba(208, 176, 134, 0.435);
+    }
+    .small{
+        opacity: 0;
+    }
+    img{
+        width: 51vw;
+        height: 50px;
+        margin-left: -1vw;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .grid{
+        margin: -10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .image2{
+        margin-left: -3vw;
+        margin-top: -1px;
+    }
+    .concert1{
+        border-radius: 15px;
+        background-color:rgba(210, 174, 127, 0.435);
+        height: calc(1600px - 70vw);
+        width: 46vw;
+        float: left;
+        margin-top: 1.5vw;
+    }
+    .concert2{
+        border-radius: 15px;
+        background-color:rgba(231, 192, 142, 0.209);
+        height: calc(1600px - 70vw);
+        width: 46vw;
+        float: right;
+        margin-top: 1.5vw;
+    }
+    .concert3{
+        border-radius: 15px;
+        background-color:rgba(231, 192, 142, 0.209);
+        height: calc(1600px - 70vw);
+        width: 46vw;
+        float: left;
+        margin-top: 1.5vw;
+    }
+    .concert4{
+        border-radius: 15px;
+        background-color:rgba(210, 174, 127, 0.435);
+        height: calc(1600px - 70vw);
+        width: 46vw;
+        float: right;
+        margin-top: 1.5vw;
+    }
+    .centertext{
+        text-align: center;
+    }
+    .concert1:hover{
+        background-color:rgba(175, 138, 89, 0.557);
+    }
+    .concert2:hover{
+        background-color:rgba(230, 200, 161, 0.722);
+    }
+    .concert3:hover{
+        background-color:rgba(230, 200, 161, 0.722);
+    }
+    .concert4:hover{
+        background-color:rgba(175, 138, 89, 0.557);
+    }
+
+}
+@media screen and (max-width: 500px){
+    *{
+        margin: 0.3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+    body{
+        background-color: rgba(210, 174, 127, 0.252);
+    }
+    h1{
+        font-size: 25px;
+        text-align: center;
+        width: 100vw;
+        height: 110px;
+        margin-left: -3vw;
+        margin-top: -10px;
+        background-color:rgba(208, 176, 134, 0.435);
+    }
+    .small{
+        opacity: 0;
+    }
+    img{
+        width: 95vw;
+        height: 50px;
+        margin-left: -1vw;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .image2{
+        margin-left: 0vw;
+        margin-top: -1px;
+    }
+    .concert1{
+        position:relative;
+        border-radius: 15px;
+        background-color:rgba(210, 174, 127, 0.435);
+        height: calc(1000px - 30vw);
+        width: 93vw;
+        margin-top: 1.5vw;
+    }
+    .concert2{
+        position:relative;
+        border-radius: 15px;
+        background-color:rgba(231, 192, 142, 0.209);
+        height: calc(1000px - 30vw);
+        width: 93vw;
+        margin-top: 1.5vw;
+    }
+    .concert3{
+        border-radius: 15px;
+        background-color:rgba(210, 174, 127, 0.435);
+        height: calc(1000px - 30vw);
+        width: 93vw;
+        margin-top: 1.5vw;
+    }
+    .concert4{
+        border-radius: 15px;
+        background-color:rgba(231, 192, 142, 0.209);
+        height: calc(1000px - 30vw);
+        width: 93vw;
+        margin-top: 1.5vw;
+    }
+    .centertext{
+        text-align: center;
+    }
+    .concert1:hover{
+        background-color:rgba(175, 138, 89, 0.557);
+    }
+    .concert2:hover{
+        background-color:rgba(230, 200, 161, 0.722);
+    }
+    .concert3:hover{
+        background-color:rgba(175, 138, 89, 0.557);
+    }
+    .concert4:hover{
+        background-color:rgba(230, 200, 161, 0.722);
+    }
+}
+@media screen and (min-width: 1400px){
+    *{
+        margin: 0.3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+
+    }
+    body{
+        background-color: rgba(210, 174, 127, 0.252);
+    }
+    h1{
+        text-align: center;
+        width: 100vw;
+        height: 110px;
+        margin-left: -3vw;
+        margin-top: -10px;
+        background-color:rgba(208, 176, 134, 0.435);
+    }
+    .small{
+        opacity: 0;
+    }
+    img{
+        width: 51vw;
+        height: 50px;
+        margin-left: -1vw;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .grid{
+        margin: -10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .image2{
+        margin-left: -3vw;
+        margin-top: -1px;
+    }
+    .concert1{
+        border-radius: 15px;
+        background-color:rgba(210, 174, 127, 0.435);
+        height: calc(1380px - 50vw);
+        width: 46vw;
+        float: left;
+        margin-top: 1.5vw;
+    }
+    .concert2{
+        border-radius: 15px;
+        background-color:rgba(231, 192, 142, 0.209);
+        height: calc(1380px - 50vw);
+        width: 46vw;
+        float: right;
+        margin-top: 1.5vw;
+    }
+    .concert3{
+        border-radius: 15px;
+        background-color:rgba(231, 192, 142, 0.209);
+        height: calc(1380px - 50vw);
+        width: 46vw;
+        float: left;
+        margin-top: 1.5vw;
+    }
+    .concert4{
+        border-radius: 15px;
+        background-color:rgba(210, 174, 127, 0.435);
+        height: calc(1380px - 50vw);
+        width: 46vw;
+        float: right;
+        margin-top: 1.5vw;
+    }
+    .centertext{
+        text-align: center;
+    }
+    .concert1:hover{
+        background-color:rgba(175, 138, 89, 0.557);
+    }
+    .concert2:hover{
+        background-color:rgba(230, 200, 161, 0.722);
+    }
+    .concert3:hover{
+        background-color:rgba(230, 200, 161, 0.722);
+    }
+    .concert4:hover{
+        background-color:rgba(175, 138, 89, 0.557);
+    }
+}
