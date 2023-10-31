@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ica10.css">
+    <title>ica 10</title>
+</head>
+<body>
+    <img id="myImg2" alt="cheshire cat" src="cheshire.png" width="180" height="250">
+    <img id="myImg" alt="alice" src="alice.png" width="150" height="250">
+    <br><br>
+    <div class="buttons">
+        <button onclick="Grow()">Grow</button>
+        <button onclick="Shrink()">Shrink</button>
+        <button onclick="Regular()">Regular</button>
+        <button onclick="Cat()">Boo!</button>
+        <button onclick="noCat()">Shoo!</button>
+    </div>
+    <script>
+    function Grow(){
+    document.getElementById("myImg").width = "250";
+    document.getElementById("myImg").height = "450";
+    }
+    function Shrink(){
+    document.getElementById("myImg").width = "80";
+    document.getElementById("myImg").height = "150";
+    }
+    function Regular(){
+    document.getElementById("myImg").width = "150";
+    document.getElementById("myImg").height = "250";
+    }
+    function Cat(){
+        document.getElementById("myImg2").style.opacity = "100";
+        document.getElementById("myImg").style.opacity = "0";
+    }
+    function noCat(){
+        document.getElementById("myImg2").style.opacity = "0";
+        document.getElementById("myImg").style.opacity = "100";
+    }
+    </script>
+</body>
+</html>
