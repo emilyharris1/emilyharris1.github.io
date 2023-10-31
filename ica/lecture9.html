@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button,div{
+            font-family: "helvetica neue", helvetica, sans-serif;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgb(200 200 0 / 0.6);
+            background-color: rgb(0 217 217 / 0.6);
+            color: rgb(100 0 0 / 1);
+            box-shadow: 1px 1px 2px rgb(0 0 200 / 0.4);
+            border-radius: 10px;
+            padding: 3px 10px;
+            cursor: pointer;
+            height: 100px;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <button type="button">Player 1: Emily</button>
+    <div id="press">Press me</div>
+
+    <script>
+        const button = document.querySelector("button");
+        const press = document.getElementbyID("press");
+
+        button.addEventListener('click', updateName);
+        press.addEventListener('click', updateName);
+
+        function updateName(){
+            let name = 10;
+            console.log("The function ran correctly");
+            console.log(name);
+            press.innerHTML = `<h1>Hello</h1>`;
+
+            // button.textContent = `Player 1: ${name}`;
+            // let name = prompt("Enter a new name");
+        }
+    </script>
+
+</body>
+</html>
