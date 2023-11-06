@@ -5,9 +5,6 @@ const insertc = ["you", "Elvis", "the giant baby from Spirited Away", "a grape",
 const insertd = ["puce", "vermillion", "dolphin pink", "goose turd green", "baby food brown", "cotton candy pink"];
 const inserte = ["your favorite food", "your least favorite food", "spoiled milk", "copper"];
 
-const insertX = ["Willy the Goblin", "Big Daddy", "Father Christmas"];
-const insertY = ["the soup kitchen", "Disneyland", "the White House"];
-const insertZ = ["spontaneously combusted", "melted into a puddle on the sidewalk", "turned into a slug and crawled away"];
 
 const customCandy = document.getElementById('customcandy');
 const randomize = document.querySelector('.randomize');
