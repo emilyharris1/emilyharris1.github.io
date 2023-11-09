@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(130, 232, 255, 0.3);
+  height: 120vh;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  text-align: center;
+  position: relative;
+  left: 485px;
+  width: 400px;
+}
+
+.full-img img{
+  position: absolute;
+  left: 520px;
+  width: 350px;
+  height: 500px;
+}
+
+.overlay{
+  position: absolute;
+  top: 80px;
+  left: 520px;
+  width: 350px;
+  height: 500px;
+  background-color: rgba(0,0,0,0);
+}
+
+button{
+  border: 0;
+  background: rgba(0,0,0,0.6);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border: 1px solid #999;
+  position: absolute;
+  cursor: pointer;
+  top: 90px;
+  left: 530px;
+}
+
+.thumb-bar img {
+  position: relative;
+  top: 520px;
+  left: 215px;
+  display: block;
+  height: 250px;
+  width: 180px;
+  float: left;
+  cursor: pointer;
+  margin-right: 10px;
+}
