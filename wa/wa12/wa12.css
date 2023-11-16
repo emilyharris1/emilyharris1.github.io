@@ -1,0 +1,112 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .general{
+    color: rgb(8, 76, 12);
+  }
+
+  body {
+    font-family: Georgia, serif;
+    background-color: #57e759bc;
+  }
+
+  p{
+    position: absolute;
+    color: rgb(8, 76, 12);
+    top: 75%;
+    left: 50%;
+  }
+  
+  .app {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 460px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  header {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid #57e759bc;
+  }
+  
+  .quotes {
+    padding: 20px 50px;
+    min-height: 200px;
+  }
+  
+  .quote-text {
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  .controls {
+    width: 100%;
+    padding: 20px 50px;
+  }
+  
+  .button {
+    display: block;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 70px;
+    cursor: pointer;
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    font-family: Georgia, serif;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  
+  .twitter {
+    background-color: #f2721d;
+    text-decoration: none;
+  }
+  
+  .twitter:hover {
+    background-color: #f2961d;
+  }
+  
+  .new-quote {
+    background-color: #177b28;
+    margin-bottom: 15px;
+  }
+  
+  .new-quote:hover {
+    background-color: #0f9e27;
+  }
+  
+  .new-quote:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .app {
+      width: 100%;
+    }
+    .quote-text {
+      font-size: 18px;
+    }
+  }
