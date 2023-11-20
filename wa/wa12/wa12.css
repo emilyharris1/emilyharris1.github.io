@@ -28,13 +28,13 @@ html {
 
   p{
     position: absolute;
-    color: rgb(8, 76, 12);
+    color: white;
     top: 75%;
     left: 30%;
     text-align: center;
     width: 570px;
     height: 40px;
-    background-color: white;
+    background-color: black;
     opacity: 80%;
     border-radius: 30px;
   }
