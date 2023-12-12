@@ -22,7 +22,7 @@ let Pong = function () {
 	
 	// true reaction is half on the first hit (so it doubles after first hit)
 	let trueReaction = 4; // a heigher number == slower reaction to the true/real ball
-	let ghostSpeed = 10; // the max speed of the ghost ball
+	let ghostSpeed = 5; // the max speed of the ghost ball
 	let paddleSpeed = 7; // the speed of the paddle
 		
 	var ctx = canvas.getContext("2d");
