@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Phone Number Entry</title>
+  <style>
+    /* Your CSS here */
+    /* ... (styles for intro screen) ... */
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      position: relative; /* Ensure positioning within the body */
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    #numberDisplays {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: 20px auto;
+    }
+
+    .phoneDisplay {
+      width: 50px;
+      height: 60px;
+      margin: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid #ccc;
+      padding: 5px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      position: absolute; /* Set position to absolute for free movement */
+    }
+  </style>
+</head>
+<body>
+  <h1>Please enter your phone number</h1>
+  <div id="numberDisplays">
+    <!-- Number displays will be appended here -->
+  </div>
+  <button onclick="restart()">Restart</button>
+
+  <script>
+    // Function to display numbers in multiple displays
+    function displayNumbers() {
+      const numberDisplays = document.getElementById('numberDisplays');
+      numberDisplays.innerHTML = ''; // Clear previous displays
+
+      // Loop to create 10 number displays
+      for (let i = 0; i < 10; i++) {
+        const displayId = `display${i}`;
+        const displayContainer = document.createElement('div');
+        displayContainer.classList.add('phoneDisplay');
+
+        // Create a paragraph element for each number display with a random starting number
+        const randomNum = Math.floor(Math.random() * 10);
+        const display = document.createElement('p');
+        display.textContent = randomNum;
+        displayContainer.appendChild(display);
+
+        // Create a stop button for each display
+        const stopButton = document.createElement('button');
+        stopButton.textContent = 'Stop';
+        stopButton.onclick = () => stopNumber(i);
+        displayContainer.appendChild(stopButton);
+
+        numberDisplays.appendChild(displayContainer);
+      }
+    }
+
+    // Array to store interval IDs for each number display
+    let intervalIds = [];
+
+    // Function to display numbers on page load
+    displayNumbers();
+
+    // Function to stop a specific number display
+    function stopNumber(index) {
+      clearInterval(intervalIds[index]); // Clear the interval for the specified display
+    }
+
+    // Function to restart all number displays
+    function restart() {
+      intervalIds.forEach((intervalId) => {
+        clearInterval(intervalId); // Clear all intervals for number displays
+      });
+      intervalIds = []; // Reset the intervalIds array
+
+      // Clear the number displays and re-display numbers
+      displayNumbers();
+
+      // Move the Restart button randomly every second
+      setInterval(() => {
+        const restartButton = document.querySelector('button');
+        const bodyWidth = document.body.clientWidth;
+        const bodyHeight = document.body.clientHeight;
+
+        const randomX = Math.random() * (bodyWidth - restartButton.offsetWidth);
+        const randomY = Math.random() * (bodyHeight - restartButton.offsetHeight);
+
+        restartButton.style.left = `${randomX}px`;
+        restartButton.style.top = `${randomY}px`;
+      }, 1000); // Update position every 1000 milliseconds (1 second)
+    }
+  </script>
+</body>
+</html>
